@@ -1,7 +1,3 @@
-# 作者: 王道 龙哥
-# 2025年12月30日09时34分40秒
-# xxx@qq.com
-
 def open_r():
     file = open('file.txt', 'r', encoding='utf8')
     txt = file.read(4)  # 默认是全部读空
@@ -22,7 +18,7 @@ def open_w():
 
 def open_a():
     """
-    w会清空文件
+
     :return:
     """
     file = open('file.txt', 'a', encoding='utf8')

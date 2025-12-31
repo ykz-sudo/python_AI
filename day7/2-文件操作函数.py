@@ -1,7 +1,3 @@
-# 作者: 王道 龙哥
-# 2025年12月30日10时33分09秒
-# xxx@qq.com
-
 def while_read():
     file = open('file.txt', 'r', encoding='utf8')
     while True:

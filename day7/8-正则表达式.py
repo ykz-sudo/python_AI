@@ -1,6 +1,3 @@
-# 作者: 王道 龙哥
-# 2025年12月30日15时50分59秒
-# xxx@qq.com
 import re
 
 original_data = 'wangdao@cskaoyan.com'

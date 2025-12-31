@@ -1,6 +1,3 @@
-# 作者: 王道 龙哥
-# 2025年12月30日11时10分21秒
-# xxx@qq.com
 import os, sys
 import time
 
