@@ -189,3 +189,6 @@ if __name__ == '__main__':
     # print(my_sort.array)
     my_sort.heap()
     print(my_sort.array)
+
+    dict1 = {'name': 'zs', 'age': 20, 'gender': 'male', 'height': 180}
+    print(sorted(dict1))
