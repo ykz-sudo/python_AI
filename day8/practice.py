@@ -133,6 +133,7 @@ class Sort:
             self.quick_sort(left, pivot - 1)
             self.quick_sort(pivot + 1, right)
 
+
     def max_heap(self, pos, length):
         array = self.array
         father = pos
