@@ -1,0 +1,37 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	2297983079104 [label="
+ (1, 10)" fillcolor=darkolivegreen1]
+	2297983064272 [label=AddmmBackward0]
+	2297983064368 -> 2297983064272
+	2297977323376 [label="model.fc.bias
+ (10)" fillcolor=lightblue]
+	2297977323376 -> 2297983064368
+	2297983064368 [label=AccumulateGrad]
+	2297983064320 -> 2297983064272
+	2297983064320 [label=ViewBackward0]
+	2297983064416 -> 2297983064320
+	2297983064416 [label=MeanBackward1]
+	2297983064752 -> 2297983064416
+	2297983064752 [label=ReluBackward0]
+	2297983064944 -> 2297983064752
+	2297983064944 [label=AddBackward0]
+	2297983064800 -> 2297983064944
+	2297983064800 [label=NativeBatchNormBackward0]
+	2297983065040 -> 2297983064800
+	2297983065040 [label=ConvolutionBackward0]
+	2297983065136 -> 2297983065040
+	2297977215152 [label="model.layer4.2.conv3.weight
+ (2048, 512, 1, 1)" fillcolor=lightblue]
+	2297977215152 -> 2297983065136
+	2297983065136 [label=AccumulateGrad]
+	2297983064560 -> 2297983064272
+	2297983064560 [label=TBackward0]
+	2297983064896 -> 2297983064560
+	2297972317616 [label="model.fc.weight
+ (10, 2048)" fillcolor=lightblue]
+	2297972317616 -> 2297983064896
+	2297983064896 [label=AccumulateGrad]
+	2297983064272 -> 2297983079104
+}

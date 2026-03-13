@@ -1,0 +1,218 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+.cursor/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+tmp/
+temp/
+
+# =========================
+# Training outputs
+# =========================
+runs/
+outputs/
+results/
+result/
+checkpoints/
+
+# =========================
+# Model weights
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# =========================
+# Databases
+# =========================
+db.sqlite3
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# =========================
+# Binary / cache / arrays
+# =========================
+*.npy
+*.npz
+*.pkl
+
+# =========================
+# Optional: generated images
+# 如果有些图片想保留展示，可后续单独处理
+# =========================
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+
+# =========================
+# Project-specific datasets / caches / outputs
+# =========================
+
+# Common data folders in your dayxx structure
+day*/chapter2/data/
+day*/chapter4/data/
+day*/chapter_2_torch/data/
+day*/chapter_4_torch_old/data/
+day*/chapter_6/data/
+
+# FashionMNIST and similar datasets
+**/FashionMNIST/
+**/raw/
+
+# Kaggle / cache / runs
+**/kaggle/
+**/runs/
+**/.cache/
+
+# Checkpoints / training outputs
+**/checkpoints/
+**/output/
+**/outputs/
+
+# Large archives
+*.tar.gz
+*.zip
+
+# Large arrays / tensors / checkpoints
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.bin
+
+# Vector DB / retrieval cache
+**/chroma_db/
+
+# Specific large files seen in your repo
+day13/BFlocation/train.csv
+day25/chapter_6/imdb_subwords.csv
+day25/chapter_6/imdb_test.txt
+day25/chapter_6/imdb_test_bpe.txt
+day25/chapter_6/imdb_train.txt
+day25/chapter_6/imdb_train_bpe.txt
+
+day35/output.tar.gz
+day35/ChatGLM3/finetune_demo/data/AdvertiseGen/train.json
+day35/ChatGLM3/finetune_demo/data/AdvertiseGen_fix/train.json
+
+day36/DISC-Law-SFT-Triplet-conversations.jsonl
+day36/GLM-4/finetune_demo/AdvertiseGen_fix/train.json
+day36/GLM-4/finetune_demo/output/
+
+# WMT cache
+day27/wmt16/.cache/
+day29/wmt16/.cache/
+day30/wmt16/.cache/
+day31/wmt16/.cache/
+
+# training image datasets
+day21/chapter4/archive/
+
+# Huge datasets
+day13/FBlocation/
+**/FBlocation/
+
+# Large model repos / demos
+day35/ChatGLM3/
+day36/GLM-4/
+
+# Fine-tuning outputs and data
+**/finetune_demo/
+**/output/
+**/checkpoint-*/
+**/AdvertiseGen/
+**/AdvertiseGen_fix/
+
+# NLP large corpora / processed data
+day25/chapter_6/imdb_subwords.csv
+day25/chapter_6/imdb_train.txt
+day25/chapter_6/imdb_test.txt
+day25/chapter_6/imdb_train_bpe.txt
+day25/chapter_6/imdb_test_bpe.txt
+day26/chapter_6/data/
+day26/project/.cache/
+day26/project/checkpoints/
+day26/project/runs/
+
+# Processed arrays / model data
+*.npy
+*.npz
+
+# Remaining large NLP files
+day26/chapter_6/imdb_subwords.csv
+day26/chapter_6/imdb_train.txt
+day26/chapter_6/imdb_test.txt
+day26/chapter_6/imdb_train_bpe.txt
+day26/chapter_6/imdb_test_bpe.txt
+day36/DISC-Law-SFT-Triplet-released.jsonl
+day14/data/zonews-bydate_py3.pkz
+
+# Arrays / processed training data
+day26/chapter_6/*.npy
+day26/chapter_6/*.npz
+
+# Translation corpora
+**/data_spa_en/
+**/wmt16/
+**/wmt16_cut/
+**/wmt16 back/
+**/wmt16_cut/
+**/wmt16_back/
+**/train_1
+**/train.en
+**/train.de
+**/train.es
+**/val.en
+**/val.de
+**/test.en
+**/test.de
+**/*.bpe
+
+# parquet datasets
+**/sst2/data/
+*.parquet
+
+*.env
+.env
